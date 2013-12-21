@@ -4,7 +4,7 @@
   Plugin URI: http://www.sandorkovacs.ro/blog/simple-post-meta-manager-wordpress-plugin/
   Description: This plugin can help you to regenerate all your permalinks based on the post titles.
   Author: Sandor Kovacs
-  Version: 1.0.0
+  Version: 1.0.1
   Author URI: http://sandorkovacs.ro/en/
  */
 
