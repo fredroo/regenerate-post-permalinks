@@ -55,7 +55,6 @@ function regenerate_post_permalink($post_type = 'post') {
                      SET post_name = '" . sanitize_title_with_dashes($post_title) . "',
                          guid = '" . $guid . "'
                WHERE ID = $pid->id";
-        echo $sql . '<br>';
         $wpdb->query($sql);
         $counter++;
     endforeach;
