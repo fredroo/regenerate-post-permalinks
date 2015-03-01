@@ -4,8 +4,8 @@ License: GPLv2 or later
 Donate link: http://sandorkovacs84.wordpress.com/
 Tags: post, permalinks
 Requires at least: 3.1.0
-Tested up to: 3.8.0
-Stable tag: 1.0.1
+Tested up to: 4.1.1
+Stable tag: 1.0.2
 
 This plugin can help you to regenerate all your permalinks based on the post titles. 
 
@@ -38,6 +38,11 @@ After you activated the plugin, please go to SETTINGS -> PERMALINK REGENERATION
 1. Permalink regeneration Admin Page.
 
 == Changelog ==
+
+= 1.0.2 =
+* Transform diacritics from title to non-diacritics chars in the slug
+* Umlauts short version support 
+
 
 = 1.0.0 =
 * First version.
