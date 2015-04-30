@@ -4,7 +4,7 @@
   Plugin URI: https://wordpress.org/plugins/regenerate-post-permalinks/
   Description: This plugin can help you to regenerate all your permalinks based on the post titles.
   Author: Sandor Kovacs
-  Version: 1.0.2
+  Version: 1.0.3
   Author URI: http://sandorkovacs.ro/en/
  */
 
