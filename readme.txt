@@ -4,7 +4,7 @@ License: GPLv2 or later
 Donate link: http://sandorkovacs84.wordpress.com/
 Tags: post, permalinks
 Requires at least: 3.1.0
-Tested up to: 4.2.1
+Tested up to: 4.3.0
 Stable tag: 1.0.3
 
 This plugin can help you to regenerate all your permalinks based on the post titles. 
@@ -40,6 +40,7 @@ After you activated the plugin, please go to SETTINGS -> PERMALINK REGENERATION
 == Changelog ==
 
 = 1.0.3 =
+* Test with WordPress 4.3.0
 * Test with WordPress 4.2.1
 
 = 1.0.2 =
