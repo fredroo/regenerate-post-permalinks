@@ -4,20 +4,20 @@ License: GPLv2 or later
 Donate link: http://sandorkovacs84.wordpress.com/
 Tags: post, permalinks
 Requires at least: 3.1.0
-Tested up to: 4.3.0
+Tested up to: 4.3.1
 Stable tag: 1.0.3
 
-This plugin can help you to regenerate all your permalinks based on the post titles. 
+This plugin can help you to regenerate all your permalinks based on the post titles.
 
 == Description ==
 
-I recently imported thousands of posts having non relevant permalinks from different Wordpress blogs / sites and I wanted to have all the permalinks based on the title. 
+I recently imported thousands of posts having non relevant permalinks from different Wordpress blogs / sites and I wanted to have all the permalinks based on the title.
 
-First I  created this usefull plugin for me, Now  I want to share with all the WordPress users. 
+First I  created this usefull plugin for me, Now  I want to share with all the WordPress users.
 
-What this plugin does? It regenerates the permalink based on title: 
+What this plugin does? It regenerates the permalink based on title:
 
-Ex Title: My new car   ==resulted permalink==>  my-new-car 
+Ex Title: My new car   ==resulted permalink==>  my-new-car
 
 
 PS: Always create database backup before the permalinks regeneration.
@@ -31,7 +31,7 @@ PS: Always create database backup before the permalinks regeneration.
 == Frequently Asked Questions ==
 
 = 1. Where can I access the permalink regeneration tool? =
-After you activated the plugin, please go to SETTINGS -> PERMALINK REGENERATION 
+After you activated the plugin, please go to SETTINGS -> PERMALINK REGENERATION
 
 == Screenshots ==
 
@@ -40,12 +40,13 @@ After you activated the plugin, please go to SETTINGS -> PERMALINK REGENERATION
 == Changelog ==
 
 = 1.0.3 =
+* Test with WordPress 4.3.1
 * Test with WordPress 4.3.0
 * Test with WordPress 4.2.1
 
 = 1.0.2 =
 * Transform diacritics from title to non-diacritics chars in the slug
-* Umlauts short version support 
+* Umlauts short version support
 
 
 = 1.0.0 =
