@@ -43,10 +43,13 @@ function regenerate_post_clear_diacritics($str) {
 }
 
 // Regenerate post permalink
-function regenerate_post_permalink($post_type = 'post') {
+function regenerate_post_permalink($post_type = 'post', $post_status = 'publish') {
     global $wpdb;
-
-    $myrows = $wpdb->get_results("SELECT id, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND post_type='$post_type' ");
+    if($post_type == 'attachment')
+    {
+      $post_status = 'inherit';
+    }
+    $myrows = $wpdb->get_results("SELECT id, post_title FROM $wpdb->posts WHERE post_status = '$post_status' AND post_type='$post_type' ");
     $counter = 0;
     foreach ($myrows as $pid) :
         $post_title = regenerate_post_clear_diacritics($pid->post_title);
